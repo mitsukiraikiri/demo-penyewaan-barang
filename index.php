@@ -37,6 +37,10 @@ $demo = [
     'image'=>'pengembalian-index.png'
   ],
   [
+    'title'=>'Halaman Pengaturan',
+    'image'=>'pengaturan-index.png'
+  ],
+  [
     'title'=>'Halaman Landing Page',
     'image'=>'landing.png'
   ],
@@ -71,18 +75,9 @@ $demo = [
         <div class="d-flex justify-content-center">
           <a href="mailto:webentercode@gmail.com" class="btn btn-success rounded-0 btn-sm">Hubungi Developer</a>
         </div>
+        <div class="text-center mt-3">instagram @entercode_tech</div>
       </div>
-    <div class="container mt-3">
-        <ul class="p-0" style="list-style: none;">
-            <li><b>Dibuat Dengan</b></li>
-            <li>PHP 8</li>
-            <li>Laravel 9</li>
-            <li>Bootstrap 5</li>
-            <li>Jquery 3</li>
-            <li>Database MYSQL</li>
-        </ul>
-    </div>
-    <div class="container">
+    <div class="container mt-5">
         <ul class="list-group">
             <?php foreach ($demo as $item): ?>
               <li class="list-group-item">
@@ -90,6 +85,16 @@ $demo = [
                 <img src="<?= $item['image'] ?>" class="img-fluid w-100 mt-3">
               </li>
             <?php endforeach; ?>
+        </ul>
+    </div>
+    <div class="container mt-3">
+        <ul class="p-0 text-center" style="list-style: none;">
+            <li><b>Dibuat Dengan</b></li>
+            <li>PHP 8</li>
+            <li>Laravel 9</li>
+            <li>Bootstrap 5</li>
+            <li>Jquery 3</li>
+            <li>Database MYSQL</li>
         </ul>
     </div>
   </main>
